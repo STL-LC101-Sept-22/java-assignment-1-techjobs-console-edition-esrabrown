@@ -80,8 +80,7 @@ public class JobData {
             String aValue = row.get(column);
             aValue = aValue.toLowerCase();
             //added this for searching Case-Insensitive
-
-           // if (aValue.contains(value)){  ---changed this with;
+            // if (aValue.contains(value)){  ---changed this with;
             if(aValue.toLowerCase().contains(value.toLowerCase())){
                 jobs.add(row);
             }
